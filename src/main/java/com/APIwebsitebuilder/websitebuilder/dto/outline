@@ -1,0 +1,31 @@
+on signin - role and seller or employee id returned then again to display dashboard redirect to other url
+in which based on role it ask for details like for seller it sends sellerid to request logasSeller controller which returns the summery pages
+in employee dashboard which maps to signup in aouthController
+
+for emplyee register another sinup option
+in employee seller list based on 4 option(company name) it search in sellerDetails and return the required values with sellerId
+after further comunication will be based on this sellerId
+
+log as seller it request it requests match on logasSeller controller asking only sellerID which opens summery pages
+
+edit matches to updateSeller controller where using sellerId in service fetch diffrent seller entities and update using setmethods no need to create new object
+
+consider automatically value filled from seller and admin to user
+
+
+// create seller uri to empUser
+
+// when we create a seller then we should creat releted table like marketaddaccount and seller onboarding with seller id and other values as default like select
+
+/***  edti we should take it in separate table that who has edited it with time it should contain userId name role sellerid(whose details get update) time
+
+
+//*** to handel enum
+
+
+//only add not remove like foe address
+
+// best way to set default values to a field is to use default constructor
+
+
+//** details of pages is not done to show
