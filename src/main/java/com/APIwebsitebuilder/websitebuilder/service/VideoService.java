@@ -1,4 +1,4 @@
-package com.APIwebsitebuilder.websitebuilder.service;
+s keypackage com.APIwebsitebuilder.websitebuilder.service;
 
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
@@ -18,7 +18,7 @@ public class VideoService {
 
     public VideoService() {
         // Setup AWS credentials and S3 client
-        BasicAWSCredentials awsCredentials = new BasicAWSCredentials("AKIASIVGLD7Y2SSITYP4", "YiQDC8PhJFw87JpsSqigvBirtVJhGk9KLXFpEa86");
+        BasicAWSCredentials awsCredentials = new BasicAWSCredentials("key", "key2");
         this.amazonS3 = AmazonS3ClientBuilder.standard()
                 .withCredentials(new AWSStaticCredentialsProvider(awsCredentials))
                 .withRegion("eu-north-1")  // Change to your region
